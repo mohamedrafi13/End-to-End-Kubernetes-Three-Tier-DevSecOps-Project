@@ -3,7 +3,7 @@ terraform {
     bucket         = "demo-rafi-sse"
     region         = "ap-south-1"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "Table-Lock"
     encrypt        = true
   }
   required_version = ">=0.13.0"
